@@ -1,0 +1,24 @@
+﻿<Application x:Class="WpfApp6.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfApp6"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesign2.Defaults.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Primary/MaterialDesignColor.DeepPurple.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignColors;component/Themes/Recommended/Secondary/MaterialDesignColor.Lime.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+
+            <!-- Дополнительный фон (118, 227, 131) -->
+            <SolidColorBrush x:Key="PrimaryHueLightBrush" Color="#76E383" />
+            <SolidColorBrush x:Key="PrimaryHueLightForegroundBrush" Color="White" />
+
+            <!-- Акцентирование внимания (73, 140, 81) -->
+            <SolidColorBrush x:Key="SecondaryAccentBrush" Color="#498C51" />
+            <SolidColorBrush x:Key="SecondaryAccentForegroundBrush" Color="White" />
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
